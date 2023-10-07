@@ -21,10 +21,25 @@
         width: 48px;
         height: 48px;
         border-radius: 48px;
+        object-fit: cover;
       }
+
+      .name {
+      color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .social-icons a {
+      color: #fffffe;
+      text-decoration: none
+    }
 
       .link {
       background-color: #e5e36a;
+      display: flex;
+      align-items: center;
+      padding: 5px;
     }
 
     .link a {
@@ -32,6 +47,12 @@
       text-decoration: none;
     }
 
+
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
     </style>
   </head>
 
@@ -43,9 +64,6 @@
     <img src="profile-pic.jpg" alt="Jake Blumenfeld's headshot">
   </div>
 
-  <div class="name">
-    Jake Blumenfeld
-  </div>
 
   <div class="social-icons">
     <a href="https://github.com/blumj808" target="_blank">
@@ -54,6 +72,7 @@
 
     <a href="https://www.linkedin.com/in/jake-blumenfeld-b348259b" target="_blank">
       LinkedIn
+      <i class="fa-brands fa-linkedin"></i>
     </a>
 
     <a href="https://www.cornell.edu/" target="_blank">
